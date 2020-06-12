@@ -49,7 +49,7 @@ def create_app(test_config=None):
     @app.route('/hello')
     # @app.route() creates a simple route so you can see the application working.
     def hello():
-        return 'Hello, World!!!!'
+        return 'Hello, World!'
 
     from . import db
     db.init_app(app)
